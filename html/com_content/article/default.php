@@ -47,7 +47,7 @@ if (!empty($this->item->pagination) && $this->item->pagination && !$this->item->
 				<span class="label label-warning"><?php echo JText::_('JUNPUBLISHED'); ?></span>
 			<?php endif; ?>
 			<?php if ($params->get('show_title')) : ?>
-				<img src="./templates/rt_afterburner2/images/PostHeaderIcon.png" width="26px" />
+				<img src="./templates/rt_afterburner2/images/PostHeaderIcon.png" />
 				<?php if ($params->get('link_titles') && !empty($this->item->readmore_link)) : ?>
 					<a href="<?php echo $this->item->readmore_link; ?>"> <?php echo $this->escape($this->item->title); ?></a>
 				<?php else : ?>
