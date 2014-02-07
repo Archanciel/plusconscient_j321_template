@@ -20,7 +20,7 @@ JHtml::_('behavior.framework');
 		<div class="page-header">
 
 			<?php if ($params->get('show_title')) : ?>
-                <h2><img src="./templates/rt_afterburner2/images/PostHeaderIcon.png" />
+                <h2 class="item-title"><img src="./templates/rt_afterburner2/images/PostHeaderIcon.png" />
 					<?php if ($params->get('link_titles') && $params->get('access-view')) : ?>
 						<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($displayData->slug, $displayData->catid)); ?>">
 						<?php echo $this->escape($displayData->title); ?></a>
