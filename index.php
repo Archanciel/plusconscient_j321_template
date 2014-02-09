@@ -123,7 +123,6 @@ $gpreset = str_replace(' ','',strtolower($gantry->get('name')));
 	<?php echo $gantry->displayModules('analytics','basic','basic'); ?>
 	<?php /** End Analytics **/ endif; ?>
 </div>
-</div>
 </body>
 </html>
 <?php
