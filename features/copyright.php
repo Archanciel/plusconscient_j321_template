@@ -25,11 +25,11 @@ class GantryFeatureCopyright extends GantryFeature
 		ob_start();
 		?>
 	<div class="clear"></div>
-	<!-- div class="rt-block rt-copyright-block">
+	<div class="rt-block rt-copyright-block">
 		<a href="http://www.rockettheme.com/" title="rockettheme.com" id="rocket">
-			<?php // echo $this->get('text'); ?>
+			<?php echo $this->get('text'); ?>
 		</a>
-	</div -->
+	</div>
 	<?php
 		return ob_get_clean();
 	}
