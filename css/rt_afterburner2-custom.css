@@ -208,6 +208,17 @@ ul.latestnewsplusbox li:hover {
 	line-height: 28px !important; /* this class rule will have precedence on id rules which set the line-height to 1.2em */
 }
 
+/* sizing search module */
+
+.plussearch {
+	padding-left: 0px;
+	height:  20px;
+}
+
+.inputbox.search-query {
+	width: 137px;
+}
+
 /*
 article h2 {  /* article title font */
   font-family: Arial,Helvetica,Sans-Serif;
@@ -231,7 +242,6 @@ article p {  article body font
   font-family: Tahoma, Arial,Helvetica,Sans-Serif;
 }
 */
-
 
 /*  Typography  */
 
